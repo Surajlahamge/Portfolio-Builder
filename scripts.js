@@ -1,4 +1,4 @@
-class PortfolioGenerator {
+class PortfolioBuilder {
     constructor() {
         this.form = document.getElementById('portfolioForm');
         this.previewSection = document.getElementById('previewSection');
@@ -930,7 +930,7 @@ async function fetchGitHubProjects() {
     }
 }
 
-// Initialize the portfolio generator when the DOM is loaded
+// Initialize the portfolio Builder when the DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
-    new PortfolioGenerator();
+    new PortfolioBuilder();
 });
