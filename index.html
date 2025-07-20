@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Generate a minimalist portfolio website using your GitHub and LinkedIn profiles">
-    <title>Portfolio Builder</title>
+    <meta name="description" content="Generate a minimalist portfolio website using your github and LinkedIn profiles">
+    <title>Portfolio Generator</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -34,23 +34,20 @@
                     </div>
                     <span class="error" id="linkedin-error" role="alert"></span>
                 </div>
-
                 <div class="form-group">
-                    <label for="GitHub">GitHub Username</label>
+                    <label for="github">github Username</label>
                     <div class="input-wrapper">
                         <i class="fab fa-github" aria-hidden="true"></i>
                         <input 
                             type="text" 
-                            id="GitHub" 
-                            name="GitHub"
+                            id="github"
+                            name="github"
                             placeholder="username" 
                             required
-                            aria-describedby="GitHub-error"
+                            aria-describedby="github-error"
                         >
-
                     </div>
-
-                    <span class="error" id="GitHub-error" role="alert"></span>
+                    <span class="error" id="github-error" role="alert"></span>
                 </div>
 
                 <button type="submit" class="generate-btn">
@@ -69,29 +66,20 @@
                 <button id="downloadBtn" class="download-btn" aria-label="Download portfolio files">
                     Download Files
                 </button>
-             
+               
                 <div class="instructions" role="complementary" aria-labelledby="instructions-title">
                     <h3 id="instructions-title">How to Deploy Your Portfolio</h3>
                     <ol>
                         <li>Download the files using the button above</li>
                         <li>Create a new repository named <code id="repoName">username.github.io</code></li>
                         <li>Upload all the downloaded files to your repository</li>
-                        <li>Enable GitHub Pages in your repository settings</li>
+                        <li>Enable github Pages in your repository settings</li>
                         <li>Your portfolio will be live at <code id="portfolioUrl">https://username.github.io</code></li>
                     </ol>
                 </div>
             </div>
         </section>
     </main>
-
-
-
-
-    <footer class="footer">
-    <p>    &copy; 2025 Portfolio Builder. </p>
-</footer>
-
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
     <script src="scripts.js"></script>
 </body>

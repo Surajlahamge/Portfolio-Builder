@@ -138,11 +138,11 @@ button:disabled {
     cursor: not-allowed;
 }
 
-.preview-section {
+#previewSection.hidden {
     margin-top: 2rem;
 }
 
-.preview-section.hidden {
+#previewSection.hidden{
     display: none;
 }
 
@@ -232,22 +232,3 @@ button:disabled {
         transform: rotate(360deg);
     }
 }
-
-
-.footer {
-    text-align: center;
-    padding: 1rem;
-    color: var(--text-light);
-    font-size: 0.875rem;
-}
-
-.input-wrapper input:hover {
-    border-color: var(--primary-color);
-    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.08);
-}
-
-.error::before {
-    content: "⚠️";
-    margin-right: 0.25rem;
-}
-
