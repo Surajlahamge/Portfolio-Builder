@@ -918,15 +918,15 @@ async function fetchGitHubProjects() {
     }
 
     generateReadme(username) {
-        return `A minimalist developer portfolio built using https://portfoilio-generator.netlify.app
+        return `A minimalist developer portfolio built using https://surajlahamge.github.io/Portfolio-Builder/
 
-## Features
+## Steps
 
-- 🌓 Dark/Light mode with smooth transitions
-- 📱 Fully responsive design
-- 🚀 Dynamic GitHub projects integration
-- 🔗 Professional links (GitHub, LinkedIn)
-- ⚡ Fast and lightweight`;
+-  After download the files 
+-  Create a new repository  
+-  Upload all the downloaded files to your repository
+-  Enable github Pages in your repository settings
+-  Your portfolio will be live `;
     }
 }
 
